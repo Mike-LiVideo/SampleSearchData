@@ -1,7 +1,7 @@
 # SampleApplication 
 
-Here are some plates to try with the plate info search and plate permits: \n
-7BSF510
+# Here are some plates to try with the plate info search and plate permits: \n
+# 7BSF510
 JNFB
 4TAN811
 6ZJG712
