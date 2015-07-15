@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+   <LinearLayout
+       android:id="@+id/content"
+       android:visibility="gone"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textStyle="bold"
+           android:padding="5dp"
+           android:background="@drawable/boarder"
+           android:text="@string/intro"/>
+       <EditText
+           android:layout_marginTop="10dp"
+           android:id="@+id/plate"
+           android:hint="@string/enter_plate"
+           android:layout_width="match_parent"
+           android:background="@drawable/boarder"
+           android:layout_height="wrap_content"/>
+
+       <Button
+           android:id="@+id/btnRepeatOffenders"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:visibility="gone"
+           android:layout_margin="5dp"
+           android:gravity="center"
+           android:text="@string/repeat"
+           android:layout_weight="1"
+           />
+       <Button
+           android:id="@+id/btnPermitSearch"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:layout_margin="5dp"
+           android:gravity="center"
+           android:visibility="gone"
+           android:text="@string/permit"
+           android:layout_weight="1" />
+       <Button
+           android:id="@+id/btnPlateInfoSearch"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:layout_margin="5dp"
+           android:gravity="center"
+           android:visibility="gone"
+           android:text="@string/plate"
+           android:layout_weight="1" />
+   </LinearLayout>
+
+    <ProgressBar android:id="@+id/loading_spinner"
+                 style="?android:progressBarStyleLarge"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center" />
+
+</FrameLayout>
