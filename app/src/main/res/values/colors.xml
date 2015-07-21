@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="border_color">#ffa7a7a7</color>
+    <color name="theme_background">#fffafafa</color>
+    <color name="action_bar_bg">#ffba122b</color>
+    <color name="btn_bar_bg">#ffba122b</color>
+    <color name="hint_text">#ff9e9e9e</color>
+    <color name="checked_background">#229e9e9e</color>
+    <color name="basic_red">#ff0000</color>
+    <color name="basic_green">#00ff00</color>
+    <color name="basic_blue">#0000ff</color>
+    <color name="light_blue">#0EBFE9</color>
+</resources>

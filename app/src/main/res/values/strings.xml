@@ -15,5 +15,14 @@
     <string name="nothing_found">No information found</string>
     <string name="permit_tital">Permit Found</string>
     <string name="no_permit_found">No Permit Found</string>
-
+    <string name="title_activity_voice_record">VoiceRecordActivity</string>
+    <string name="recording_ready">Ready To Record</string>
+    <string name="recording_in_progress">Recording in progress</string>
+    <string name="recording_complete">Recording Complete</string>
+    <string name="plates_list">List of Plates</string>
+    <string name="record">Voice Record</string>
+    <string name="search">Database Search</string>
+    <string name="title_activity_search_database">SearchDatabaseActivity</string>
+    <string name="title_activity_recording">RecordingActivity</string>
+    <string name="start_recording">Create Recording</string>
 </resources>
